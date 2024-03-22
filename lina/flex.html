@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            border: 6px solid black;
+            display: flex;
+            flex-direction: row; /* row | row-reverse | column | column-reverse */
+            flex-wrap: nowrap; /* nowrap | wrap | wrap-reverse */
+            /*flex-flow: row wrap;  shorthand for flex-direction and flex-wrap */
+            justify-content: flex-start; /* flex-start | flex-end | center | space-between | space-around | space-evenly */
+            /* height: 500px; */
+            align-items: flex-start;
+        }
+        .flex-item {
+            color: white;
+            font-size: 1.5rem;
+            padding: 1rem;
+            text-align: center;
+        }
+        .item-1 {
+            background-color: red;
+        }
+        .item-2 {
+            background-color: green;
+        }
+        .item-3 {
+            background-color: blue;
+        }
+        .item-4 {
+            background-color: yellow;
+        }
+        .item-5 {
+            background-color: purple;
+        }
+        .item-6 {
+            background-color: tomato;
+        }
+        .item-7 {
+            background-color: orange;
+        }
+        .item-8 {
+            background-color: pink;
+        }
+        .item-9 {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-item item-1">Item 1</div>
+        <div class="flex-item item-2">Item 2</div>
+        <div class="flex-item item-3">Item 3</div>
+        <div class="flex-item item-4">Item 4</div>
+        <div class="flex-item item-5">Item 5</div>
+        <div class="flex-item item-6">Item 6</div>
+        <div class="flex-item item-7">Item 7</div>
+        <div class="flex-item item-8">Item 8</div>
+        <div class="flex-item item-9">Item 9</div>
+    </div>
+
+    <!-- Flex container properties -->
+    <!-- 1. display
+    2. flex-direction
+    3. flex-wrap
+    4. flex-flow
+    5. justify-content
+    6. align-items
+    7. align-content -->
+</body>
+</html>
